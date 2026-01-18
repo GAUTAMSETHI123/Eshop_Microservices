@@ -28,7 +28,7 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: Restore dependencies
-        run: dotnet restore Eshop-microservices/Eshop-microservices.sln"
+        run: dotnet restore Eshop-microservices/Eshop-microservices.sln
 
       - name: Build
         run: dotnet build --configuration Release --no-restore
